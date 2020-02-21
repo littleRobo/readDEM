@@ -1,1 +1,0 @@
-/usr/bin/c++ -fPIC  -Wl,--version-script=/home/felix/Desktop/readDEM/3rdparty/tiff-4.0.10/libtiff/libtiffxx.map -shared -Wl,-soname,libtiffxx.so.5 -o libtiffxx.so.5.4.0 CMakeFiles/tiffxx.dir/tif_stream.cxx.o -Wl,-rpath,/home/felix/Desktop/readDEM/3rdparty/tiff-4.0.10/release/libtiff: libtiff.so.5.4.0 -lm -lz -ljpeg -ljbig -llzma 
